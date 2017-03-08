@@ -40,7 +40,7 @@
 </view>
 <view class="index-con">
 	<view class="index-h1">
-		<navigator url="details/details" hover-class="navigator-hover">减肥特膳-星后爆品第一季</navigator>
+		<navigator url="details/details" hover-class="navigator-hover">减肥特膳-星后爆品第二季</navigator>
 	</view>
 	<navigator url="details/details" hover-class="navigator-hover">
 		<view class="index-duct">
