@@ -1,0 +1,3 @@
+/*.ul{width: 730rpx;margin: 10rpx auto 25rpx;}
+.ul .li{width: 20%;height: 132rpx;background-color: #fff;border-radius: 15rpx;border: 1px solid #efefef}
+.ul .li .img{margin: 10rpx auto;height: 60rpx;width: 60rpx}*/

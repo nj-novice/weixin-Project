@@ -1,0 +1,6 @@
+.my_message .li{width: 100%;margin-top: -1px;margin-bottom: 13rpx;border-bottom: 1px solid #efefef;border-top: 1px solid #efefef;float: left;}
+.my_message .li .img{width: 150rpx;height: 150rpx;float: left;}
+.my_message .li .div{height: 135rpx;overflow: hidden;float: left;width: 600rpx;padding-top: 15rpx;}
+.my_message .li .div .h1{max-width: 480rpx;overflow: hidden;float: left;display: inline-block;font-size: 30rpx;color: #333333;line-height: 45rpx;}
+.my_message .li .div .small{float: right;font-size: 22rpx;color: #999999;line-height: 45rpx;margin-right: 25rpx;}
+.my_message .li .div .con{float: left;font-size: 26rpx;color: #666666;line-height: 36rpx;padding-top: 10rpx;}

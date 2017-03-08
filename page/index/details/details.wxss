@@ -1,0 +1,27 @@
+@import "../index.wxss";
+/*details 详情*/
+page{padding:0}
+.details_video{width: 100%;height: 500rpx;position: relative;}
+.details_video .video{height: 100%;width: 100%;position: absolute;left: 0;top: 0;z-index: 1}
+.details_video .vid{position: absolute;left: 0;top: 0;height: 100%;width: 100%;z-index: 0}
+.video_btn{height: 70rpx;line-height: 70rpx;background-color: #fff;margin-bottom: 20rpx;}
+.video_btn .wxw{margin-top: 20rpx}
+.video_btn .fl{margin-left: 5rpx;}
+.video_btn .fr{line-height: 70rpx;color: #fff;text-align: center;font-size: 30rpx;background-color: #ff6f56;height: 100%;margin-right: 0;width: 137rpx;}
+.details_title{height: 95rpx;font-size: 32rpx;color: #333333;line-height: 95rpx;text-align: center;border-bottom: 1px solid #f7f7f7;background-color: #fff;}
+.details_con{position: relative;}
+.details_con .p{font-size: 30rpx;color: #666666;line-height: 35rpx;padding: 1rpx 25rpx 20rpx;background-color: #fff;}
+.product_img{width: 100%;height: 585rpx;display: block;}
+.ds{position: absolute;top: 56%;left: 20rpx;height: 95rpx;width: 95rpx;}
+.zan{position: absolute;top: 56%;right: 20rpx;height: 95rpx;width: 95rpx;}
+.details_con .buy{height: 96rpx;float: left;width: 100%;line-height: 96rpx;background-color: #fff;}
+.details_con .buy .icon{height: 46rpx;width: 46rpx;margin-top: 25rpx;float: left;margin-left: 10rpx;}
+.details_con .buy .span{display: inline-block;float: left;line-height: 96rpx;}
+.details_con .buy .btn{background-color: #ff6f56;width: 143rpx;display: inline-block;margin-right: 0;font-size: 28rpx;color: #fff;display: inline-block;height: 96rpx;text-align: center;}
+.comment{font-size: 30rpx;float: left;width: 100%;background-color: #fff;}
+.comment .title,.comment .question,.comment .answer{border-bottom: 1px solid #f7f7f7;line-height: 41rpx;width: 96%;margin: auto;padding-top: 20rpx;padding-bottom: 20rpx}
+.comment .title .name,.comment .question .name,.comment .answer .name{display: inline-block;float: left;color: #ff6f56;}
+.comment .question .name{color: #333;}
+.section{color: #bdbdbd;float: left;width: 100%;background-color: #fff;}
+.section .input{float: left;display: inline-block;width: 580rpx;height: 85rpx;padding-left: 20rpx;}
+.section .btn{width: 150rpx;line-height: 85rpx;background-color: #ff6f56;text-align: center;color: #fff;display: inline-block;float: right;}

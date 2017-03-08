@@ -1,0 +1,118 @@
+<import src="../../rec_index.wxml"/>
+<view bindscroll="scroll">
+<view class="header">
+   <scroll-view class="scroll-view_H" scroll-x="true"  style="width: 90%" bindtap="tabBar">
+      <block wx:for="{{heads}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">
+      <view wx:if="{{idx==1}}" id="{{idx}}list" class="scroll-view-item_H {{ion[idx]}}">{{item}}</view>
+      	 <view wx:else id="{{idx}}list" class="scroll-view-item_H {{ion[idx]}}">{{item}}</view>
+      </block>
+       </scroll-view>
+      <image src="http://tfwk.cn/image/index-he.jpg" mode="scaleToFill" class="he"></image>
+</view>
+<!-- 热点 -->
+<view class="body" hidden="{{tf[1]}}">
+
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="index-banner">
+  <block wx:for="{{imgUrls}}" wx:key="{{*this}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="index-con">
+	<view class="index-h1" bindtap="tapName"><navigator url="slide-tab/slide-tab" hover-class="navigator-hover">星后改变皇后的命运</navigator></view>
+	<navigator url="details/details" hover-class="navigator-hover">
+		<view class="index-duct">
+			<block wx:for="{{indexImgs}}" wx:key="{{*this}}">
+			     
+				      <image src="{{item}}" class="slide-img"/>
+				      
+			  </block>
+		</view>
+	</navigator>
+	<view class="article">
+		<view class="fr">55</view>
+		<image src="http://tfwk.cn/image/message.png" class="fr wxw"/>
+		<view class="fr">28</view>
+		<image src="http://tfwk.cn/image/xin.png" class="fr wxw"/>
+	</view>
+</view>
+<view class="index-con">
+	<view class="index-h1">
+		<navigator url="details/details" hover-class="navigator-hover">减肥特膳-星后爆品第一季</navigator>
+	</view>
+	<navigator url="details/details" hover-class="navigator-hover">
+		<view class="index-duct">
+			      <image src="http://tfwk.cn/image/indexImg2.png" class="oneImg"/>
+		</view>
+	</navigator>
+	<view class="article">
+		<view class="fr">97</view>
+		<image src="http://tfwk.cn/image/message.png" class="fr wxw"/>
+		<view class="fr">58</view>
+		<image src="http://tfwk.cn/image/xin.png" class="fr wxw"/>
+	</view>
+</view>
+<view class="index-con">
+	<view class="index-h1">
+		<navigator url="details/details" hover-class="navigator-hover">双十一改买眼霜眼膜list，拿走不谢！</navigator>
+	</view>
+     <navigator url="details/details" hover-class="navigator-hover" class="videowarp">
+     	 <image src="http://tfwk.cn/image/video.jpg" class="videoImg"></image>
+     </navigator>
+	<view class="article">
+		<view class="fr">23</view>
+		<image src="http://tfwk.cn/image/message.png" class="fr wxw"/>
+		<view class="fr">71</view>
+		<image src="http://tfwk.cn/image/xin.png" class="fr wxw"/>
+	</view>
+</view>
+<view class="index-con">
+ <navigator url="details/details" hover-class="navigator-hover">   
+		 <image src="http://tfwk.cn/image/index-fl.png" class="fl imgFl"/>
+	 </navigator>
+<view class="h2">
+	<view class="ht">
+	    <navigator url="details/details" hover-class="navigator-hover">   
+	         拒绝过敏！这些产品连敏感肌肤都能用哦。
+		 </navigator>
+	 </view>
+	<view class="hc">
+		<view class="fr ft">n+</view>
+		<image src="http://tfwk.cn/image/message.png" class="fr wxw"/>
+		<view class="fr ft">77</view>
+		<image src="http://tfwk.cn/image/xin.png" class="fr wxw"/>
+	</view>
+	</view>
+		<navigator url="fabu/fabu">
+			<image class="camera" src="http://tfwk.cn/image/index-photo.png"></image>
+		</navigator>
+	</view>
+</view>
+
+<!-- 关注 -->
+	<view class="guanzhu" hidden="{{tf[0]}}">
+		<template is="guanzhu" data="{{follow}}"/>
+	</view>
+<!-- 搞笑 -->
+	<view class="gaoxiao list" hidden="{{tf[2]}}">
+			<template is="laught"  data="{{list}}"  />
+	</view>
+<!-- 女神 -->
+	<view hidden="{{tf[3]}}">
+		<view class="xiu">
+			<template is="text" data="{{xiu}}"/>
+		</view>
+	</view>
+<!-- 趣味 -->
+	<view hidden="{{tf[4]}}">
+		<view class="qw">
+			<template is="con_tj" data="{{quwei}}"/>
+		</view>
+	</view>
+<!-- 工作 -->
+	<view hidden="{{tf[5]}}">
+		<template is="guanzhu" data="{{follow}}"/>
+	</view>
+</view>

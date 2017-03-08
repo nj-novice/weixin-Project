@@ -1,0 +1,22 @@
+<form bindsubmit="formSubmit">
+<view class="bank">
+	<image class="whatbank-logo" src="http://tfwk.cn/image/banklogo.png"></image>
+	<view class="whatbank">中国农业银行</view>
+	<view class="banknumber">尾号9999储蓄卡</view>
+	<view class="right"></view>
+</view>
+<view class="get">
+	提现金额
+</view>
+<view class="howmuch">
+	<image src="http://tfwk.cn/image/$.png" class="img"></image>	
+	<input type="digit" class="ipt"  maxlength="8" bindinput="next"  focus="{{focus}}"/>
+</view>
+<view class="about">
+
+	可用余额<view class="little">671.00</view>元
+</view>
+<navigator url="{{a}}"><button type="default" class="{{next}}" disabled="{{disabled}}" formType="submit">快速到账，确认提现</button></navigator>
+
+
+</form>

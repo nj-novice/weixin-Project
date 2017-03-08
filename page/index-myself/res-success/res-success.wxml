@@ -1,0 +1,16 @@
+<icon type="success" size="80" class="icon"/>
+<view class="title">
+	充值成功
+</view>
+<view class="con">
+	交易详情已发送到微信请查收
+</view>
+<view class="message">
+	<view class="dt h1">充值信息</view>
+	<view class="dt">农业银行尾号9999</view>
+	<view class="dt">-100</view>
+</view>
+
+	<navigator url="">
+		<button class="btn">完成</button>
+	</navigator>

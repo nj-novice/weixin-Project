@@ -1,0 +1,12 @@
+.ds-header{display: flex;height: 60rpx;width: 100%;margin-top: 10rpx;justify-content:space-between;border-bottom: 1px solid #f4f4f4}
+.li{text-align: center;font-size: 30rpx;color: #333333;width: 100%;line-height: 60rpx;}
+.dscon-li{display: flex;justify-content:space-between;}
+.first{background: url("http://tfwk.cn/image/first.png") scroll no-repeat 44rpx 10rpx;background-size: 62rpx 62rpx;}
+.two{background: url("http://tfwk.cn/image/two.png") scroll no-repeat 44rpx 10rpx;background-size: 62rpx 62rpx;}
+.three{background: url("http://tfwk.cn/image/three.png") scroll no-repeat 44rpx 10rpx;background-size: 62rpx 62rpx;}
+.four{background: url("http://tfwk.cn/image/four.png") scroll no-repeat 44rpx 10rpx;background-size: 62rpx 62rpx;}
+.photo{width: 80rpx;height: 80rpx;border: 0;border-radius: 50%;display: inline-block;margin-top: 10rpx;}
+.item{width: 100%;text-align: center;height: 100rpx;border-bottom: 1px solid #f4f4f4;line-height: 100rpx;}
+.nm{font-size: 30rpx;color: #333;}
+.rank{font-size: 22rpx;}
+.follow{width: 120rpx;height: 44rpx;background-color: #ff6f56;border-radius: 20rpx;margin: 28rpx auto;line-height: 44rpx;font-size: 28rpx;color: #fff;}

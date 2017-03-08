@@ -1,0 +1,64 @@
+<image src="{{toggle}}" class="bg"></image>
+<view class="btn">
+	<image src="http://tfwk.cn/image/fabu_icon01.png" class="icon_1"></image>
+	<view class="toggle" bindtap="toggle">点击封面切换背景</view>
+	<button class="button">发布</button>
+</view>
+<view class="h1">
+	<view class="border"></view>标签:
+</view>
+<checkbox-group bindchange="checkboxChange" class="bar">
+<block  wx:for="{{items}}" wx:for-item="item" wx:key="{{*this}}" wx:for-index="idx">
+  <label class="checkbox item true" wx:if="{{item.checked}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}" class="hide" />{{item.value}}
+  </label>
+  <label class="checkbox item" wx:else>
+    <checkbox value="{{item.name}}" checked="{{item.checked}}" class="hide" />{{item.value}}
+  </label>
+  </block>
+</checkbox-group>
+
+<view class="h1">
+	<view class="border"></view>标题:
+</view>
+<view class="h_con">
+<!-- 在这么冷的冬天没有比吹着空调敷着面膜躺在沙发上晒太阳在轻松快乐的事情了 -->
+<!-- <input placeholder="标题" class="p" value="{{h1}}" /> -->
+<textarea auto-height placeholder="标题" value="{{h1}}"  class="p" /> 
+	<view class="san"></view>
+</view>
+<view class="h1">
+	<view class="border"></view>内容:
+</view>
+<view class="con">
+	<view class="photo" style="display: {{photo_show}}">
+	<image src="{{photo}}" class="img"></image>
+	<image src="http://tfwk.cn/image/fabu_icon02.png" class="colse" bindtap="photo_hide"></image>
+	</view>
+	<view class="text" style="display: {{text_show}}" bindtap="text_writehide">
+		<view class="h1">
+			<view class="border"></view>正文编辑<view class="success" catchtap="write_val">完成</view>
+		</view>
+		<view catchtap="stop">
+			<textarea placeholder="介绍"  class="content" bindinput="container" value="{{none}}"/>
+		</view>
+	</view>
+	<view style="display: {{text_show_one}}" class="write">
+		<view style="width: 80%">{{text}}</view>
+		<image src="http://tfwk.cn/image/fabu_icon02.png" class="colse" bindtap="text_hide"></image>
+	</view>
+	<view class="video" style="display: {{video_show}}" bindtap="video_hide">
+		 <video src="{{video}}" class="img" style="{{video_show}}" controls="{{false}}"></video>
+		 <image src="http://tfwk.cn/image/fabu_icon02.png" class="colse" bindtap="video_hide"></image>
+	</view>
+</view>
+
+<view  class="append" bindtap="tap">
+	<image src="http://tfwk.cn/image/append.png" class="img" ></image>
+</view>
+<view class="appendchild" style="bottom: {{btm}}">
+	<view class="border" bindtap="addphoto" style="display: {{add_show}}">添加照片</view>
+	<view class="border" bindtap="addtext" style="display: {{add_text}}">添加文本</view>
+	<view class="border" bindtap="addvideo" style="display: {{add_video}}">添加视频</view>
+	<view class="border" bindtap="hide">取消</view>
+</view>

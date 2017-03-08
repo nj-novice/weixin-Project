@@ -1,0 +1,7 @@
+.icon{display: block;text-align: center;margin: 75rpx auto 50rpx}
+.post{font-size: 36rpx;color: #333333;text-align: center;}
+.symbol{display: inline;color: #333333;padding-right: 10rpx;}
+.list{font-size: 30rpx;height: 76rpx;line-height: 76rpx;background-color: #fff;}
+.list .bank,.list .number{display: inline-block;float: right;margin-right: 20rpx;}
+.list .h1{color: #898989;display: inline-block;text-indent: 30rpx;}
+.btn{height: 86rpx;width: 660rpx;display: block;margin: 80rpx auto 0;color: #fff;background-color: #ff6146}

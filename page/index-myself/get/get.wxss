@@ -1,0 +1,13 @@
+.bank{position: relative;overflow: hidden;height: 100rpx;background-color: #fff;margin-top: 15rpx;font-size: 34rpx;line-height: 50rpx;text-indent: 10rpx;}
+.bank .whatbank-logo{width: 70rpx;height: 70rpx;float: left;margin:15rpx;}
+.right{height: 30rpx;width: 30rpx;transform: translate(-50%,-50%) rotate(45deg);border:1px solid #cbcbcb;border-left: none;border-bottom: none;position: absolute;top: 50%;right: 20rpx;}
+.bank .whatbank{color: #333333;display: inline-block;float: left;width: 70%}
+.bank .banknumber{display: inline-block;float: left;}
+.get{margin-top: 20rpx;font-size: 26rpx;color: #666666;text-indent: 15rpx;}
+.howmuch{overflow: hidden;position: relative;height: 100rpx;line-height: 100rpx;background-color: #fff;color: #333;text-indent: 16rpx;font-size: 30rpx;}
+.howmuch .img{height: 70rpx;width: 70rpx;margin: 10rpx;}
+.howmuch .ipt{height: 100rpx;width: 100%;position: absolute;top: 0;left: 0;padding-left: 100rpx;z-index: 1}
+.next{width: 660rpx;height: 85rpx;line-height: 85rpx;font-size: 36rpx;color: #b9b9b9!important;background-color: #dadada!important;border:none;margin: 50rpx auto;padding: 0;text-align: center;position: inherit;}
+.red{color: #fff!important;background-color: #ff6146!important}
+.about{font-size: 28rpx;color: #666666;text-indent: 25rpx;height: 85rpx;line-height: 85rpx;border-top: 1px solid #efefef;margin-top: 15rpx;}
+.little{display: inline;}

@@ -1,0 +1,129 @@
+<!-- 发现头部 -->
+<template name="fx_top">
+	<view class="fx-ul">
+		<navigator class="li" url="../index/index">
+			<image src="http://tfwk.cn/image/fx_laughtimg01.png" class="img"></image>
+			<view class="h1">搞笑</view>
+			<view class="border"></view>
+			<view class="{{san1}}"></view>
+		</navigator>
+		<navigator class="li" url="../fx_ns/fx_ns">
+			<image src="http://tfwk.cn/image/fx_laughtimg02.png" class="img"></image>
+			<view  class="h1">女神</view>
+			<view class="border"></view>
+			<view class="{{san2}}"></view>
+		</navigator>
+		<navigator class="li" url="../fx_tj/fx_tj">
+			<image src="http://tfwk.cn/image/fx_laughtimg03.png" class="img"></image>
+			<view  class="h1">推荐</view>
+			<view class="border"></view>
+			<view class="{{san3}}"></view>
+		</navigator>
+		<navigator class="li" url="../fx_qw/fx_qw">
+			<image src="http://tfwk.cn/image/fx_laughtimg04.png" class="img"></image>
+			<view  class="h1">趣味</view>
+			<view class="border"></view>
+			<view class="{{san4}}"></view>
+		</navigator>
+		<navigator class="li" url="../job/job">
+			<image src="http://tfwk.cn/image/fx_laughtimg05.png" class="img"></image>
+			<view  class="h1">职业</view>
+			<view class="{{san5}}"></view>
+		</navigator>
+	</view>
+</template>
+<!-- 我的秀 -->
+<template name="text">
+	<block wx:for="{{xiu}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">
+		<view class="li">
+			<image src="{{item.src}}" class="bg"></image>
+			<view class='p'>
+				<view class="p_bg"></view>
+				<view class="h1">{{item.h1}}</view>
+				<image src="http://tfwk.cn/image/xiu_xin.png" class="xin"></image>
+				<view class="zan">{{item.zan}}</view>
+				<image src="http://tfwk.cn/image/xiu_yan.png" class="yan"></image>
+				<view class="watch">{{item.watch}}</view>
+			</view>
+		</view>
+	</block>
+</template>
+<!-- 发现  女神 -->
+<template name="text_ns">
+	<block wx:for="{{list}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">
+		<view class="li">
+			<image src="{{item.src}}" class="bg"></image>
+			<view class='p'>
+				<view class="p_bg"></view>
+				<view class="h1">{{list.h1}}</view>
+				<image src="http://tfwk.cn/image/xiu_xin.png" class="xin"></image>
+				<view class="zan">{{list.zan}}</view>
+				<image src="http://tfwk.cn/image/xiu_yan.png" class="yan"></image>
+				<view class="watch">{{list.watch}}</view>
+			</view>
+		</view>
+	</block>
+</template>
+<template name="con_tj">
+	<block wx:for="{{quwei}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">
+		<view class="quwei">
+			<view class="head">
+				<image src="{{item.src}}" class="img"></image>
+				<view class="name">{{item.name}}</view>
+				<view class="block first">{{item.first}}</view>
+				<view class="block two">{{item.two}}</view>
+				<view class="block three">{{item.three}}</view>
+			</view>
+				<image src="{{item.con}}" class="con"></image>	
+				<view class="h1">
+					{{item.h1}}
+					
+				</view>
+				<view class="foot">
+					<view class="time">{{item.time}}</view>
+					<view class="item">
+					<image class="xin" src="http://tfwk.cn/image/xiu_xin.png"></image>
+					<view class="font">{{item.xin}}</view>
+					<image class="yan" src="http://tfwk.cn/image/xiu_yan.png"></image>
+					<view class="font">{{item.yan}}</view>
+				</view>
+			</view>
+		</view>
+	</block>
+</template>
+<!-- 关注 -->
+<template name="guanzhu">
+	<block wx:for="{{follow}}" wx-for-index="idx" wx-for-item="item" wx:key="{{*this}}">
+		<view class="gz_list">
+			<image src="{{item.src}}" class="gzlist_img"></image>
+			<view class="gz_right">
+				<view class="gzr_con">{{item.con}}</view>
+				<view class="fr font_12">{{item.xin}}</view>
+				<image src="http://www.tfwk.cn/image/message.png" class="fr wxw"/>
+				<view class="fr font_12">{{item.comment}}</view>
+				<image src="http://www.tfwk.cn/image/xin.png" class="fr wxw"/>
+				</view>
+		</view>
+	</block>
+</template>
+<!-- 搞笑 -->
+<template name="laught">
+	<block wx:for="{{list}}" wx:key="{{*this}}" wx:for-index="idx" wx-for-item="item">
+		<view class="item">
+			<image src="{{item.src}}" class="ban"></image>
+			<view class="h1">{{item.h1}}</view>
+			<view class="con">
+				<view class="left">
+					<image src="{{item.photo}}" class="photo"></image>
+					<view class="h2">大咖秀</view>
+				</view>
+				<view class="right">
+					<image src="http://tfwk.cn/image/message.png" class="img"></image>
+					<view class="like">{{item.like}}</view>
+					<image src="http://tfwk.cn/image/xin.png" class="img"></image>
+					<view class="comment">{{item.comment}}</view>
+				</view>
+			</view>
+		</view>
+	</block>
+</template>

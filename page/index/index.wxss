@@ -1,0 +1,69 @@
+page{padding-top: 70rpx;background-color: #f4f4f4;}
+.body{margin-bottom: 60rpx;overflow: hidden;}
+.header{position: fixed;height: 70rpx;background-color: #fff;width: 100%;left: 0;top: 0;z-index: 999}
+.he{position: absolute;top: 0;right: 0;width: 70rpx;height: 70rpx;box-shadow: -2px 0 1px #e8e8e9,0 -0px 0px #e8e8e9,0 0px 0px #e8e8e9,0px 0 0px #e8e8e9;}
+.scroll-view_H{
+  white-space: nowrap;
+  height: 70rpx;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+.scroll-view-item{
+  height: 70rpx;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  margin-right: 40rpx;
+  margin-left: 40rpx;
+  height: 70rpx;
+  text-align: center;
+  font-size: 34rpx;
+  line-height: 70rpx
+}
+#list7{margin-right: 100rpx;}
+.ion{height: 60rpx;border-bottom: 2px solid #ff654b;}
+.index-banner{margin: 15rpx auto;height: 380rpx;}
+.slide-image{width: 750rpx;height: 380rpx;}
+.slide-img{width: 100%;height: 100%;height: 150rpx;margin-left: 15rpx;}
+.index-h1{padding: 15rpx;}
+.videoImg{width: 720rpx;height: 345rpx;margin:0 auto;display: block;}
+.index-con{border-bottom: 1px solid #efefef;background-color: #fff;overflow: hidden;}
+.index-duct{display: flex;flex-direction: row;justify-content:space-between;padding: 0 15rpx 0 0;position: relative;z-index: 1;}
+.article{height: 50rpx;line-height: 50rpx;padding-right: 15rpx;font-size: 22rpx;color: #666666;}
+.wxw{width: 30rpx;height: 30rpx;margin-top: 10rpx;}
+.fr{float: right;display: inline-block;margin-right: 10rpx;}
+.fl{float: left;}
+.oneImg{width: 100%;height: 340rpx;padding-left: 15rpx;}
+.imgFl{height: 150rpx;width: 230rpx;padding: 15rpx;background-color: #fff;}
+.index-con .h2{float: right;width: 460rpx;position: relative;height: 165rpx;background-color: #fff;margin-right: 15rpx;}
+.ht{font-size: 30rpx;color: #000;padding-top: 15rpx;}
+.hc{font-size: 22rpx;color: #666666;position: absolute;right: 15rpx;bottom: 0;line-height: 30rpx;}
+.ft{padding-top: 10rpx}
+.camera{position: fixed;bottom: 7%;right: 5%;height: 70rpx;width: 70rpx;transition: all .5s;z-index: 999}
+/*关注*/
+.gz_title{padding: 20rpx;overflow: hidden;}
+.titleimg{width: 233rpx;height: 122rpx;float: left;}
+.gz_right{margin-left: 20rpx;float: left;width: 455rpx;}
+.gz_list{float: left;padding: 20rpx;overflow: hidden;}
+.gz-h1{font-size: 40rpx;color: #333333;width: 60%;display: inline-block;float: left;}
+.gz-small{font-size: 26rpx;color: #666;width: 60%;display: inline-block;float: left;margin-top: 20rpx;line-height: 30rpx;}
+.gz-btn{width: 150rpx;height: 60rpx;border: 0px;border-radius: 25rpx;background-color: #ff6f56;text-align: center;
+line-height: 60rpx;color: #fff;font-size: 30rpx;float: right;display: inline-block;margin-top: -20rpx;margin-right: 10rpx;}
+.gzlist_img{width: 230rpx;height: 150rpx;float: left;}
+.gzr_con{height: 110rpx;font-size: 30rpx;color: #333;line-height: 41rpx;}
+.font_12{font-size: 22rpx;color: #666;margin-top: 13rpx;}
+/*搞笑*/
+.gaoxiao{margin-top: 20rpx;}
+/*搞笑*/
+.list .item{width: 730rpx;margin:0 auto 10rpx;overflow: hidden;border: 1px solid #efefef;background-color:#fff;}
+.list .item .ban{float: left;height: 270rpx;width: 100%;}
+.list .item .h1{font-size: 28rpx;color: #000000;line-height: 62rpx;border-bottom: 1px solid #efefef;text-indent: 10rpx;}
+.list .item .con{width: 100%;float: left;}
+.list .item .con .left,.list .item .con .right{display: inline-block;font-size: 22rpx;}
+.list .item .con .left{float: left;width: 50%;}
+.list .item .con .right{float: right;width: 28%}
+.list .item .con .photo{height: 50rpx;width: 50rpx;display: inline-block;margin: 14rpx;float: left;border-radius: 50%}
+.list .item .con .img{height: 40rpx;width: 40rpx;float: left;margin-top: 19rpx;}
+.list .item .con .left .h2{display: inline-block;font-size: 24rpx;float: left;line-height: 78rpx;}
+.like,.comment{display: inline-block;float: left;line-height: 78rpx;text-indent: 15rpx;margin-right: 15rpx;}

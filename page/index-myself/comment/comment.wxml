@@ -1,0 +1,16 @@
+<view class="header">
+	<navigator url="comment" redirect class="left on">我的评论</navigator>
+	<navigator url="../answer/answer" redirect class="right">回复我的</navigator>
+</view>
+<block wx:for="{{array}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">
+	<view class="li">
+		<image src="http://tfwk.cn/image/comment-img01.png" class="photo"></image>
+		<view class="name">{{item.name}}</view>
+		<view class="content"><view class="me">我：</view>{{item.con}}</view>
+		<view class="title">{{item.title}}</view>
+		<view class="foot">
+			<view class="time">{{item.time}}</view>
+			<image src="http://tfwk.cn/image/comment-message.png" class="reply"></image>
+		</view>
+	</view>
+</block>

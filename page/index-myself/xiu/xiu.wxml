@@ -1,0 +1,5 @@
+<import src="../../../rec_index.wxml"/>
+<view class="xiu ul">
+	<template is="text"  data="{{xiu}}"  />
+</view>
+

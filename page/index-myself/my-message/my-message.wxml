@@ -1,0 +1,16 @@
+<view class="my_message">
+	<block wx:for="{{mes}}" wx:for-item="item" wx:key="{{*this}}">
+		<view class="li">
+			<image src="{{item.src}}" class="img"></image>
+			<view class="div">
+				<view class="h1">系统通知</view>
+				<view class="small">
+					{{item.small}}
+				</view>
+				<view class="con">
+					{{item.con}}
+				</view>
+			</view>
+		</view>
+	</block>
+</view>

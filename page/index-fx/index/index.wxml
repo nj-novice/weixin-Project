@@ -1,0 +1,5 @@
+<import src="../../../rec_index.wxml"/>
+<template is="fx_top"  data="{{san1}}"  />
+<view class="list">
+<template is="laught"  data="{{list}}"  />
+</view>

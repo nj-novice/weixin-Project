@@ -1,0 +1,4 @@
+<import src="../../../rec_index.wxml"/>
+<template is="fx_top"  data="{{san4}}"  />
+
+<template is="con_tj" data="{{quwei}}"/>

@@ -1,0 +1,25 @@
+<view class="ds-header">
+	<view  wx:for="{{array}}" class="li" wx:key="{{*this}}">
+		{{item.message}}
+	</view>
+</view>	
+<view class="ds-con">
+	<view class="dscon-li" wx:for="{{arrayLi}}" wx:for-item="i" wx:for-index="idn" wx:key="{{*this}}">
+	 <block wx:if="{{idn===0}}">
+	 	<view class="item rank first">{{i.rank}}</view>
+	 </block>
+	 <block wx:elif="{{idn===1}}">
+	 	<view class="item rank two">{{i.rank}}</view>
+	 </block>
+	 <block wx:elif="{{idn===2}}">
+	 	<view class="item rank three">{{i.rank}}</view>
+	 </block>
+	 <block wx:else>
+	 	<view class="item rank four">{{i.rank}}</view>
+	 </block>
+	     <view class="item"><image src="{{i.img}}" class="photo"></image>	</view>
+	     <view class="item nm">{{i.name}}</view>	
+	     <view class="item nm">{{i.money}}</view>	
+	     <view class="item"><view class="follow">{{i.follow}}</view></view>	
+	</view>
+</view>	

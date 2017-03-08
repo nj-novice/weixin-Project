@@ -1,0 +1,23 @@
+<icon type="waiting" size="85" class="icon"/>
+<view class="post">提现申请已提交</view>
+<view class="list">
+	<view class="h1">
+		储蓄卡
+	</view>
+	
+	<view class="number"><view class="symbol">尾号</view>9999</view>
+	<view class="bank">农业银行</view>
+</view>
+<view class="list">
+	<view class="h1">
+		提现金额
+	</view>
+	<view class="number"><view class="symbol">￥</view>1111</view>
+</view>
+<view class="list">
+	<view class="h1">
+		手续费
+	</view>
+	<view class="number"><view class="symbol">￥</view>1111</view>
+</view>
+<button class="btn">完成</button>

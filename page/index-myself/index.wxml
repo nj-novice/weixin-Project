@@ -1,0 +1,42 @@
+<view class="header">
+	<view class="wapper">
+		<!-- <image src="http://www.tfwk.cn/image/myself-photo.png" class="myphoto"></image> -->
+		<image src="{{src.avatarUrl}}" class="myphoto"></image>
+	</view>
+
+	<view class="name">张慧</view>
+	<view class="ul">
+		<block wx:for="{{arr}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">
+			<view class="li border" wx:if="{{idx===1}}">
+				<view class="h1">{{item.name}}</view>
+				<view class="span">{{item.value}}</view>
+			</view>
+			<view class="li" wx:else>
+				<view class="h1">{{item.name}}</view>
+				<view class="span">{{item.value}}</view>
+			</view>
+		</block>
+	</view>
+</view>
+<view class="con">
+	<block wx:for="{{list}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">
+		<navigator url="{{aList[idx]}}" hover-class="other-navigator-hover">
+			<view class="li">
+				<image src="http://www.tfwk.cn/image/myself-img{{idx+1}}.png" class="fl"></image>
+				<view class="p">{{item.con}}</view>
+				<view class="fr"></view>
+			</view>
+		</navigator>
+	</block>
+</view>
+<view class="con">
+	<block wx:for="{{listTwo}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">
+		<navigator url="{{aList2[idx]}}" hover-class="other-navigator-hover">
+			<view class="li">
+				<image src="http://www.tfwk.cn/image/myselfimg{{idx+1}}.png" class="fl"></image>
+				<view class="p">{{item.con}}</view>
+				<view class="fr"></view>
+			</view>
+		</navigator>
+	</block>
+</view>

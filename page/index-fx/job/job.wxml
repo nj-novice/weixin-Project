@@ -1,0 +1,3 @@
+<import src="../../../rec_index.wxml"/>
+<template is="fx_top"  data="{{san5}}"  />
+<template is="guanzhu"  data="{{follow}}"  />

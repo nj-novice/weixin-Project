@@ -1,0 +1,18 @@
+<template name="msgItem">
+<view class="xiu ul">
+	<block wx:for="{{xiu}}" wx:for-index="idx" wx:for-item="item" wx:key="{{*this}}">
+		<view class="li">
+			<image src="{{item.src}}" class="bg"></image>
+			<view class='p'>
+				<view class="p_bg"></view>
+				<view class="h1">{{item.h1}}</view>
+				<image src="http://tfwk.cn/image/xiu_xin.png" class="xin"></image>
+				<view class="zan">{{item.zan}}</view>
+				<image src="http://tfwk.cn/image/xiu_yan.png" class="yan"></image>
+				<view class="watch">{{item.watch}}</view>
+			</view>
+		</view>
+	</block>
+</view>
+</template>
+<template is="msgItem" data="{{xiu}}"/>

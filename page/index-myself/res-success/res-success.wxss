@@ -1,0 +1,7 @@
+.icon{margin: 75rpx auto;text-align: center;display: block;}
+.title{font-size: 36rpx;color: #333333;text-align: center;}
+.con{font-size: 26rpx;color: #c6c6c6;text-align: center;line-height: 50rpx;}
+.message{height: 90rpx; line-height: 90rpx;background-color: #fff;margin: 10rpx auto 75rpx;}
+.message .dt{font-size: 30rpx;color: #333;display: inline-block;width: 33.33%;text-align: center;}
+.message .h1{color: #898989;text-align: left;text-indent: 50rpx;}
+.btn{width: 660rpx;height: 85rpx;line-height: 85rpx;font-size: 36rpx;color: #fff!important;background-color: #ff6146!important;border:none;margin: 50rpx auto;padding: 0;text-align: center;position: inherit;}

@@ -1,0 +1,51 @@
+
+<view class="details_video" bindtap="hide">
+	<video id="myVideo" class="video" bindtap="autoPlay" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" style="opacity: {{opacity}}"></video>
+	<image src="http://www.tfwk.cn/image/index-details.jpg" class="vid" style="display: {{sh}}"></image>
+</view>
+<view class="video_btn">
+
+		<image src="http://tfwk.cn/image/xin.png" class="fl wxw"/>
+		<view class="fl">30</view>
+		<image src="http://tfwk.cn/image/message.png" class="fl wxw"/>
+		<view class="fl">55</view>
+	
+		<view class="fr">加关注</view>
+
+</view>
+<view class="details_title">
+	珍如萤润雪肤沙面膜(单盒装)
+</view>
+<view class="details_con">
+	<view class="p">皮肤缺水来一片，一盒珍如雪肤纱面膜让你找到白、润、透完美肌肤，给自己一个越来越美的机会！</view>
+	<image src="http://www.tfwk.cn/image/details-img1.jpg" class="product_img"></image>
+	<image src="http://www.tfwk.cn/image/details-ds.png" class="ds"></image>
+	<image src="http://www.tfwk.cn/image/details-zan.png" class="zan"></image>
+	<view class="buy">
+		<image src="http://www.tfwk.cn/image/icon2.png" class="icon"></image>
+		<view class="span">已经有12280人购买</view>
+		<view class="btn fr">立即抢购</view>
+	</view>
+	
+</view>
+<view class="comment">
+	<view class="title">
+		<view class="name">主播:</view>
+		<view class="con">对于产品大家可以踊跃的提问，我逐条回答哦！</view>
+	</view>
+	<block wx:for="{{comment}}" wx:for-index="idx" wx:for-item="item">
+		<view class="question">
+			<view class="name">阿呆:</view>
+			<view class="con">对于产品大家可以踊跃的可以踊跃的可以踊跃的可以踊跃的提问，我逐条回答哦！</view>
+		</view>
+		<view class="answer">
+			<view class="name">主播:</view>
+			<view class="con">对于产品大家可以踊跃的提问，我逐条回答哦！</view>
+		</view>
+	</block>
+	
+</view>
+<view class="section">
+  <input placeholder="点击评论即可与主播互动" class="input" />
+  <view class="btn">评论</view>
+</view>

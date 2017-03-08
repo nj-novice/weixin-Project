@@ -1,0 +1,70 @@
+{
+	"pages":[
+       "page/index/index",
+       "page/index-ds/index",
+       "page/index-fx/index/index",
+       "page/index-myself/index",
+       "page/index/details/details",
+       "page/index/slide-tab/slide-tab",
+       "page/index-myself/xiu/xiu",
+       "page/index-myself/my-message/my-message",
+       "page/index-myself/my-money/my-money",
+       "page/index-myself/comment/comment",
+       "page/index-myself/good/good",
+       "page/index-myself/answer/answer",
+       "page/index-myself/recharge/recharge",
+       "page/index-myself/res-success/res-success",
+       "page/index-myself/get/get",
+       "page/index-myself/get-success/get-success",
+       "page/index-fx/fx_ns/fx_ns",
+       "page/index-fx/fx_tj/fx_tj",
+       "page/index-fx/fx_qw/fx_qw",
+       "page/index-fx/job/job",
+       "page/index/fabu/fabu"
+
+	],
+	"window":{
+		"navigationBarBackgroundColor":"#ff654b",
+		"navigationBarTitleText":"秀打赏",
+		"backgroundTextStyle":"drak",
+		"navigationBarTextStyle":"white",
+		"backgroundColor":"#f4f4f4",
+		"enablePullDownRefresh":"true"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"backgroundColor":"#fff",
+		"position":"bottom",
+		"list":[{
+		      "pagePath": "page/index/index",
+		      "iconPath": "image/index-sy.png",
+		      "selectedIconPath": "image/index-sy-HL.png",
+		      "text": "首页"
+		    },{
+		      "pagePath": "page/index-ds/index",
+		      "iconPath": "image/index-ds.png",
+		      "selectedIconPath": "image/index-ds-HL.png",
+		      "text": "打赏榜"
+		    },{
+		      "pagePath": "page/index-fx/index/index",
+		      "iconPath": "image/index-fx.png",
+		      "selectedIconPath": "image/index-fx-HL.png",
+		      "text": "发现"
+		    },{
+		      "pagePath": "page/index-myself/index",
+		      "iconPath": "image/index-myself.png",
+		      "selectedIconPath": "image/index-myself-HL.png",
+		      "text": "我的"
+		    }
+
+		]
+	},
+	"networkTimeout": {
+	    "request": 10000,
+	    "connectSocket": 10000,
+	    "uploadFile": 10000,
+	    "downloadFile": 10000
+	},
+	"debug": true
+
+}

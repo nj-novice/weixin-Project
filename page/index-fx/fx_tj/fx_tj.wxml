@@ -1,0 +1,18 @@
+<import src="../../../rec_index.wxml"/>
+<template is="fx_top"  data="{{san3}}"  />
+<view class="banner">
+	<view class="item">
+		<image class="xin" src="http://tfwk.cn/image/xiu_xin.png"></image>
+		<view class="font">855</view>
+		<image class="yan" src="http://tfwk.cn/image/xiu_yan.png"></image>
+		<view class="font">789</view>
+	</view>
+	<image class="img" src="http://tfwk.cn/image/fx_tj_banner1.png"></image>
+</view>
+<view class="interesting">
+	<image src="http://tfwk.cn/image/fx_tjh1.png" class="h1"></image>
+	<view class="border"></view>
+	<view class="p"><view class="h2">趣人</view>今年过年不收礼收礼只收大山珍</view>
+	<view class="p"><view class="h2">趣事</view>今天来健身，为什么却如此烦躁</view>
+</view>
+<template is="con_tj" data="{{quwei}}"/>

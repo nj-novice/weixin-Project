@@ -1,0 +1,17 @@
+.header {height: 350rpx;background-color: #ff674e;color: #fff;text-align: center;}
+.header .h1{font-size: 24rpx;padding-top: 68rpx;}
+.header .howmuch{font-size: 36rpx;padding-top: 10rpx;margin-bottom: 110rpx;}
+.header .in,.header .out{width: 50%;float: left;font-size: 26rpx;}
+.income{height: 87rpx;border-top:1px solid #ececec;text-align: center;border-bottom:1px solid #ececec;margin: 10rpx auto;}
+.income .in,.income .out{line-height: 85rpx;font-size: 34rpx;color: #666666;width: 50%;float: left;height: 85rpx;}
+.income .in{margin-left: -1px;border-right: 1px solid #ececec;}
+.income .img{width: 50rpx;height: 85rpx;float: left;margin-left: 128rpx;}
+.income .lin{height: 85rpx;display: inline-block;float: left;margin-left: 10rpx;line-height: 87rpx;}
+.scroll-view-item{height: 200rpx;}
+.ul {height: 1022rpx;overflow: hidden;padding-bottom: 100rpx;}
+.ul .li{height: 87rpx;border-top: 1px solid #ececec;}
+.ul .li .right{float: right;line-height: 87rpx;margin-right: 25rpx;display: inline-block;}
+.ul .li .left{text-indent: 25rpx;display: inline-block;max-width: 550rpx;float: left;}
+.ul .li .left .type{line-height: 50rpx;font-size: 28rpx;color: #444444;display: inline-block;float: left;width: 70%}
+.ul .li .left .time{line-height: 37rpx;font-size: 22rpx;color: #999999;display: inline-block;float: left;}
+.ul .li .left .time .lin{display: inline;text-indent: 25rpx;}

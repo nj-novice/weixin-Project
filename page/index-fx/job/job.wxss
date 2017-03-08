@@ -1,0 +1,11 @@
+.fr{float: right;display: inline-block;margin-right: 10rpx;}
+.fl{float: left;}
+.wxw{width: 30rpx;height: 30rpx;margin-top: 10rpx;}
+.gz_list{float: left;padding: 20rpx;overflow: hidden;}
+.gz-h1{font-size: 40rpx;color: #333333;width: 60%;display: inline-block;float: left;}
+.gz-small{font-size: 26rpx;color: #666;width: 60%;display: inline-block;float: left;margin-top: 20rpx;line-height: 30rpx;}
+.gz-btn{width: 150rpx;height: 60rpx;border: 0px;border-radius: 25rpx;background-color: #ff6f56;text-align: center;
+line-height: 60rpx;color: #fff;font-size: 30rpx;float: right;display: inline-block;margin-top: -20rpx;margin-right: 10rpx;}
+.gzlist_img{width: 230rpx;height: 150rpx;float: left;}
+.gzr_con{height: 125rpx;font-size: 30rpx;color: #333;line-height: 41rpx;}
+.font_12{font-size: 22rpx;color: #666;margin-top: 13rpx;}

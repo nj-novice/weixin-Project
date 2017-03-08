@@ -1,0 +1,32 @@
+.fx-ul{background-color: #fff;width: 730rpx;margin: 10rpx auto 25rpx;border-radius: 15rpx;border: 1px solid #edecec;height: 132rpx;border-radius: 15rpx;}
+.fx-ul .li{width: 20%;background-color: #fff;float: left;text-align: center;font-size: 30rpx;position: relative;}
+.fx-ul .li .img{margin: 10rpx auto;height: 60rpx;width: 60rpx}
+.fx-ul .li .border{height: 60rpx;width: auto;border-right: 1px dashed #999999;position: absolute;right: 0;top: 31rpx;}
+.fx-ul .li .san{height: 20rpx;width: 20rpx;position: absolute;bottom: -20rpx;left: 50%;transform: translateX(-50%) rotate(45deg);border: 1px solid #edecec;border-left: none;border-top: none;background-color: #fff;transform-origin: center}
+.xiu{padding-bottom: 20rpx;}
+.xiu .li{width: 96%;height: 280rpx;position: relative;margin: 15rpx auto;}
+.xiu .li .bg{width: 100%;height: 100%;}
+
+.xiu .li .p{position: absolute;bottom: 0;left: 0;height: 50rpx;line-height: 50rpx;width: 100%;z-index: 1}
+.xiu .li .p .h1{display: inline-block;color: #fff;font-size: 30rpx;text-indent: 25rpx;float: left;width: 530rpx;overflow: hidden;}
+.xiu .li .p .p_bg{height: 100%;width: 100%;position: absolute;left: 0;top: 0;z-index: -1;opacity: .3;background-color: #000;}
+.xiu .li .p .xin,.xiu .li .p .yan{display: inline-block;height: 50rpx;width: 40rpx;float: left;}
+.xiu .li .p .zan,.xiu .li .p .watch{display: inline-block;font-size: 22rpx;color: #fff;float: left;margin-left: 7rpx;min-width: 30rpx;}
+/*趣味*/
+.qw .item{position: absolute;top: 0;left: 0;padding-left: 20rpx;text-indent: 6rpx;}
+.qw .font{font-size: 22rpx;color: #fff;display: inline-block;float: left;line-height: 50rpx;padding-right: 6rpx;}
+.qw .xin,.qw .yan{height: 50rpx;width: 40rpx;float: left;}
+.quwei{padding: 15rpx 20rpx;width: 690rpx;margin: 10rpx auto 0;border: 1px solid #edecec;border-radius: 15rpx;}
+.quwei .head{height: 60rpx;}
+.quwei .head .img{height: 60rpx;width: 60rpx;top: 20rpx;border-radius: 50%;position: relative;float: left;}
+.quwei .head .name{font-size: 26rpx;color: #333333;line-height: 60rpx;display: inline;float: left;text-indent: 8rpx;}
+.quwei .head .block{display: inline;float: right;padding: 4rpx;font-size: 22rpx;}
+.quwei .head .first{color: #ff6db4;border: 1px solid #ff6db4;border-radius: 10rpx;margin-right: 10rpx;}
+.quwei .head .two{color: #73bfff;border: 1px solid #73bfff;border-radius: 10rpx;margin-right: 10rpx;}
+.quwei .head .three{color: #fd8fa6;border: 1px solid #fd8fa6;border-radius: 10rpx;margin-right: 10rpx;}
+.quwei .con{width: 100%;height: 230rpx;}
+.quwei .h1{font-size: 28rpx;color: #000000;padding-top: 6rpx;padding-bottom: 12rpx;line-height: 36rpx;border-bottom: 1px solid #efefef;}
+.time{font-size: 22rpx;color: #c5c5c5;line-height: 71rpx;display: inline;}
+.quwei .foot{position: relative;}
+.quwei .foot .item{right: 0;display: inline;left: inherit;margin-top: 10rpx;}
+.quwei .foot .font{color: #333;}

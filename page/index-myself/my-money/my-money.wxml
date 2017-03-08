@@ -1,0 +1,26 @@
+	<view class="header">
+		<view class="h1">账户余额(元)</view>
+		<view class="howmuch">9999.00</view>
+		<view>
+			<view class="in">当月收入：1875.00 (元)</view>
+			<view class="out">当月收入：1875.00 (元)</view>
+		</view>
+	</view>
+	<view class="income">
+	
+		<navigator class="in" url="../recharge/recharge"><image src="http://tfwk.cn/image/my-money-in.png" class="img"></image><view  class="lin" >充值</view></navigator>
+		<navigator class="out" url="../get/get"><image src="http://tfwk.cn/image/my-money-out.png" class="img"></image><view class="lin" url="../recharge/recharge">提现</view></navigator>
+	</view>
+	<view class="ul">
+		<block wx:for="{{typemoney}}" wx:for-item="item" wx:key="{{*this}}">
+			<view class="li">
+				<view class="left">
+					<view class="type">充值</view>
+					<view class="time">2016-12-02 <view class="lin">17.02</view></view>
+				</view>
+				<view class="right">
+					+100
+				</view>
+			</view>
+		</block>
+	</view>

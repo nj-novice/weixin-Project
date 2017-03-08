@@ -1,0 +1,9 @@
+{
+	"window":{
+	  "navigationBarBackgroundColor": "#ff674e",
+	  "navigationBarTextStyle": "white",
+	  "navigationBarTitleText": "详情",
+	  "backgroundColor": "#fff",
+	  "backgroundTextStyle": "light"
+	}
+}

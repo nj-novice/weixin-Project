@@ -1,0 +1,18 @@
+<form bindsubmit="formSubmit">
+<view class="bank">
+	<image class="whatbank-logo" src="http://tfwk.cn/image/banklogo.png"></image>
+	<view class="whatbank">中国农业银行</view>
+	<view class="banknumber">尾号9999储蓄卡</view>
+	<view class="right"></view>
+</view>
+<view class="max">
+	本次最多可充值5000.00元
+</view>
+<view class="howmuch">
+	金额
+	<input type="digit" class="ipt"  maxlength="8" bindinput="next"  focus="{{focus}}"/>
+</view>
+<view>
+	<navigator url="{{a}}"><button type="default" class="{{next}}" disabled="{{disabled}}" formType="submit">下一步</button></navigator>
+</view>
+</form>

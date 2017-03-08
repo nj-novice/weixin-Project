@@ -1,0 +1,19 @@
+Page({
+ data:{
+ 	sh:"block",
+ 	opacity:0,
+ 	comment:[1,2,3]
+ },
+ autoPlay:function(e){
+ 	if(this.data.opacity===0){
+ 		this.videoContext=wx.createVideoContext('myVideo');
+	 	this.videoContext.play();
+ 	}
+ },
+ hide:function(e){
+ 	this.setData({
+ 		sh:"none",
+ 		opacity:1
+ 	})
+ }
+})
